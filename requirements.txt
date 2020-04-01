@@ -1,0 +1,10 @@
+matplotlib
+seaborn
+pandas
+numpy
+scipy
+bs4
+lxml
+jax
+tqdm
+numpyro

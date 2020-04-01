@@ -1,0 +1,4 @@
+API_KEY
+data/weather/json/*.json
+scripts/__pycache__
+notebooks/.ipynb_checkpoints
