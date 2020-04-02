@@ -1,4 +1,4 @@
-import numpy as np
+import jax.numpy as np
 
 def SIR(N, Ii, Ri, beta, gamma, days):
     """

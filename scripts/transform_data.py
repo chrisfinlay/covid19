@@ -5,6 +5,8 @@ import numpy as np
 import json
 import os
 
+pd.options.mode.chained_assignment = None
+
 ########### Global Variables ###################################################
 
 COVID_DIR = os.path.split(os.path.split(os.path.join(os.getcwd(), __file__))[0])[0]
@@ -26,7 +28,7 @@ def convert_date(date):
 
     date = dt.datetime.strptime(date, '%d %b')
     return f'{date.month}/{date.day}/20'
-    
+
 def initial_processing(df, threshold):
 
     for c in ['China', 'Iran', 'Italy', 'Diamond Princess']:
