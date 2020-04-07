@@ -160,7 +160,7 @@ def population():
     print(f'Number of unmatched regions : {len(unmatched)}')
 
     fp = os.path.join(DATA_DIR, POPULATION_CSV)
-    popula = pd.DataFrame(populations, index=['Population']).T
+    popula = pd.DataFrame(populations, index=['Population'])
     popula.to_csv(fp, index=False)
     print(f'Population data saved @ {fp}')
     return popula
