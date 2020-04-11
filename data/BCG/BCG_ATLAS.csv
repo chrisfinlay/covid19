@@ -1,111 +1,111 @@
-Country,Current BCG Policy,World Bank Income Group,Start Year,End Year,Deaths 4/5/20,Population,Start Year (INT),End Year (INT),WBIG,Coverage
-Hungary,Yes,High income,1953,N/A,34.0,9660351.0,1953.0,,3,100%
-Sri Lanka,Yes,Lower middle income,N/A,N/A,5.0,21413249.0,,,1,N/A
-Canada,No,High income,2011 data: 1933-1954 in some provinces/territori5,2011 data: 1960s-70s except for Inuit and many on-reserve First Nations infants,0.0,,,,3,N/A
-Ecuador,No,Upper middle income,N/A,N/A,180.0,17643054.0,,,2,90%
-Venezuela,Yes,Upper middle income,N/A,N/A,7.0,28435940.0,,,2,99.90%
-Croatia,Yes,High income,1948,N/A,15.0,4105267.0,1948.0,,3,98.60%
-Norway,No,High income,N/A,2009,71.0,5421241.0,,2009.0,3,Unkown
-Iraq,Yes,Upper middle income,N/A,N/A,61.0,40222493.0,,,2,99.50%
-South Africa,Yes,Upper middle income,1973,N/A,11.0,59308690.0,1973.0,,2,90.5% (98% for Western Cape)
-Estonia,Yes,High income,Unknown,N/A,15.0,1326535.0,,,3,~90%
-Peru,Yes,Upper middle income,1945,N/A,83.0,32971854.0,1945.0,,2,80%
-Gambia,Yes,Low income,1979,N/A,1.0,2416668.0,1979.0,,0,99%
-Saudi Arabia,Yes,High income,1968,N/A,34.0,34813871.0,1968.0,,3,98%
-Sudan,Yes,Lower middle income,1976,N/A,2.0,43849260.0,1976.0,,1,77%
-United Kingdom,No,High income,1953,2005,0.0,67886011.0,1953.0,2005.0,3,75%
-Indonesia,Yes,Lower middle income,1999,N/A,198.0,273523615.0,1999.0,,1,92.2%%
-Armenia,Yes,Lower middle income,1998,N/A,7.0,2963243.0,1998.0,,1,94%
-El Salvador,Yes,Lower middle income,1970,N/A,3.0,6486205.0,1970.0,,1,85.40%
-Philippines,Yes,Lower middle income,N/A,N/A,152.0,109581078.0,,,1,80%
-Taiwan*,Yes,High income,2011 data: 1951,N/A,5.0,23816775.0,,,3,98.40%
-Portugal,Yes,High income,N/A,N/A,295.0,10196709.0,,,3,93.70%
-Bahamas,Yes,High income,N/A,N/A,4.0,393244.0,,,3,98%
-Cabo Verde,Yes,Lower middle income,N/A,N/A,1.0,555987.0,,,1,98%
-Slovenia,No,High income,1947,2005,28.0,2078938.0,1947.0,2005.0,3,96%
-Afghanistan,Yes,Low income,N/A,N/A,7.0,38928346.0,,,0,46%
-Guatemala,Yes,Lower middle income,N/A,N/A,2.0,17915568.0,,,1,DK
-Morocco,Yes,Lower middle income,N/A,N/A,70.0,36910560.0,,,1,95%
-San Marino,Yes,High income,N/A,N/A,32.0,33931.0,,,3,>90%
-India,Yes,Lower middle income,1948,N/A,99.0,1380004385.0,1948.0,,1,99%
-Iran,Yes,Upper middle income,1984,N/A,3603.0,,1984.0,,2,99.50%
-Romania,Yes,Upper middle income,1928,N/A,151.0,19237691.0,1928.0,,2,>90%
-Malaysia,Yes,Upper middle income,N/A,N/A,61.0,32365999.0,,,2,85%
-Poland,Yes,High income,1955,N/A,94.0,37846611.0,1955.0,,3,93.70%
-Moldova,Yes,Lower middle income,N/A,N/A,15.0,4033963.0,,,1,95%
-Turkey,Yes,Upper middle income,1952,N/A,574.0,84339067.0,1952.0,,2,94%
-Nigeria,Yes,Lower middle income,1991,N/A,5.0,206139589.0,1991.0,,1,85%
-Germany,No,High income,1961,1998,1584.0,83783942.0,1961.0,1998.0,3,DK
-Dominican Republic,Yes,Upper middle income,N/A,N/A,82.0,10847910.0,,,2,90%
-Syria,Yes,Lower middle income,N/A,N/A,2.0,17500658.0,,,1,N/A
-Ukraine,Yes,Lower middle income,> 40 years ag5,N/A,37.0,43733762.0,,,1,15-45%%
-Republic of Congo,Yes,Lower middle income,N/A,N/A,,,,,1,90%
-Bolivia,Yes,Lower middle income,N/A,N/A,10.0,11673021.0,,,1,N/A
-Bulgaria,Yes,Upper middle income,1951,N/A,20.0,6948445.0,1951.0,,2,98%
-Ghana,Yes,Lower middle income,N/A,N/A,5.0,31072940.0,,,1,DK
-Cameroon,Yes,Lower middle income,N/A,N/A,9.0,26545863.0,,,1,98%
-Mexico,Yes,Upper middle income,1951,N/A,79.0,128932753.0,1951.0,,2,95%
-Cuba,Yes,Upper middle income,N/A,N/A,8.0,11326616.0,,,2,90%
-Gabon,Yes,Upper middle income,N/A,N/A,1.0,2225734.0,,,2,N/A
-Jordan,Yes,Upper middle income,N/A,N/A,5.0,10203134.0,,,2,98.10%
-US,No,High income,N/A,N/A,9619.0,331002651.0,,,3,N/A
-Greece,Yes,High income,N/A,N/A,73.0,10423054.0,,,3,DK
-Switzerland,No,High income,1965,1987,715.0,8654622.0,1965.0,1987.0,3,N/A
-Tunisia,Yes,Lower middle income,N/A,N/A,22.0,11818619.0,,,1,>95%
-Mauritius,Yes,Upper middle income,N/A,N/A,7.0,1271768.0,,,2,85%
-Mali,Yes,Low income,N/A,N/A,5.0,20250833.0,,,0,85%
-Israel,No,High income,1955,N/A,49.0,8655535.0,1955.0,,3,>90%
-United Arab Emirates,Yes,High income,N/A,N/A,10.0,9890402.0,,,3,N/A
-Jamaica,Yes,Upper middle income,N/A,N/A,3.0,2961167.0,,,2,N/A
-Azerbaijan,Yes,Upper middle income,N/A,N/A,7.0,10139177.0,,,2,94%
-Thailand,Yes,Upper middle income,1977,N/A,23.0,69799978.0,1977.0,,2,99%
-Australia,No,High income,1955,mid 1980s,3.0,,1955.0,,3,95%
-Ireland,Yes,High income,1955,N/A,158.0,4937786.0,1955.0,,3,94%
-Uruguay,Yes,High income,1980,N/A,5.0,3473730.0,1980.0,,3,99.90%
-Czech Replublic,No,High income,1953,2010,,,1953.0,2010.0,3,80% (of targeted) 
-Netherlands,No,High income,N/A,N/A,0.0,17134872.0,,,3,N/A
-Angola,Yes,Upper middle income,1979,N/A,2.0,32866272.0,1979.0,,2,90%
-Qatar,Yes,High income,N/A,N/A,4.0,2881053.0,,,3,93.70%
-Zimbabwe,Yes,Low income,N/A,N/A,1.0,14862924.0,,,0,99.90%
-France,No,High income,1950,2007,0.0,65273511.0,1950.0,2007.0,3,N/A
-Denmark,No,High income,1946,1986,179.0,5792202.0,1946.0,1986.0,3,>80%
-Guyana,Yes,Upper middle income,N/A,N/A,4.0,786552.0,,,2,DK
-Kazakhstan,Yes,Upper middle income,N/A,N/A,6.0,18776707.0,,,2,98.10%
-Andorra,No,High income,N/A,N/A,18.0,77265.0,,,3,90%
-Panama,Yes,Upper middle income,N/A,N/A,46.0,4314767.0,,,2,95%
-Belgium,No,High income,N/A,N/A,1447.0,11589623.0,,,3,N/A
-Burkina Faso,Yes,Low income,N/A,N/A,17.0,20903273.0,,,0,98%
-Singapore,Yes,High income,mid 1955,N/A,6.0,5850342.0,,,3,97%
-Lebanon,No,Upper middle income,N/A,N/A,18.0,6825445.0,,,2,85%
-Paraguay,Yes,Upper middle income,N/A,N/A,3.0,7132538.0,,,2,95%
-Honduras,Yes,Lower middle income,N/A,N/A,22.0,9904607.0,,,1,DK
-Pakistan,Yes,Lower middle income,1978,N/A,47.0,220892340.0,1978.0,,1,95%
-Argentina,Yes,Upper middle income,Unknown,N/A,44.0,45195774.0,,,2,95%
-Sweden,No,High income,1940,1975,401.0,10099265.0,1940.0,1975.0,3,26.4% (98.1% of high-risk group)
-Togo,Yes,Low income,N/A,N/A,3.0,8278724.0,,,0,99%
-Costa Rica,Yes,Upper middle income,N/A,N/A,2.0,5094118.0,,,2,90%
-Bangladesh,Yes,Lower middle income,1979,N/A,9.0,164689383.0,1979.0,,1,99%
-Bahrain,Yes,High income,N/A,N/A,4.0,1701575.0,,,3,98%
-Brazil,Yes,Upper middle income,1976,N/A,486.0,212559417.0,1976.0,,2,86.90%
-Russia,Yes,Upper middle income,N/A,N/A,45.0,145934462.0,,,2,>90%
-DRC,Yes,Low income,N/A,N/A,,,,,0,90%
-Spain,No,High income,1965,1981,12641.0,46754778.0,1965.0,1981.0,3,N/A
-Columbia,Yes,Upper middle income,1960,N/A,,,1960.0,,2,80-90%
-Iceland,Yes,High income,1953,N/A,4.0,341243.0,1953.0,,3,100%
-Albania,Yes,Upper middle income,N/A,N/A,20.0,2877797.0,,,2,46%
-Botswana,Yes,Upper middle income,N/A,N/A,1.0,2351627.0,,,2,97%
-Egypt,Yes,Lower middle income,N/A,N/A,78.0,102334404.0,,,1,90%
-Luxembourg,No,High income,N/A,N/A,36.0,625978.0,,,3,85%
-Niger,Yes,Low income,N/A,N/A,10.0,24206644.0,,,0,N/A
-Belarus,Yes,Upper middle income,N/A,N/A,8.0,9449323.0,,,2,98%
-Bosnia and Herzegovina,Yes,Upper middle income,1950,N/A,23.0,3280819.0,1950.0,,2,97%
-Austria,No,High income,1952,1990,204.0,9006398.0,1952.0,1990.0,3,Almost 100%
-Lithuania,Yes,High income,N/A,N/A,13.0,2722289.0,,,3,85%
-Japan,Yes,High income,1942-1951,N/A,77.0,126476461.0,,,3,98.10%
-Kenya,Yes,Lower middle income,N/A,N/A,4.0,53771296.0,,,1,80%
-Trinidad and Tobago,Yes,High income,N/A,N/A,7.0,1399488.0,,,3,99%
-Algeria,Yes,Upper middle income,N/A,N/A,152.0,43851044.0,,,2,46%
-Finland,No,High income,1941,2006,28.0,5540720.0,1941.0,2006.0,3,98%
-Italy,No ,High income,"2011 data: 1970 (not national, only provincial) ","2011 data: 2001 (not national, only provincial)",15887.0,,,,3,N/A
-Cyprus,Yes,High income,N/A,N/A,9.0,1207359.0,,,3,90%
-"Korea, South",Yes,High income,1975,N/A,183.0,51269185.0,1975.0,,3,85%
+Country,Current BCG Policy,World Bank Income Group,Start Year,End Year,Coverage,Changes,Change Details,Deaths 4/5/20,Population,Start Year (INT),End Year (INT),WBIG
+Hungary,Yes,High income,1953,N/A,100%,None,None,34.0,9660351.0,1953.0,,3
+Sri Lanka,Yes,Lower middle income,N/A,N/A,N/A,1981,Systematic BCG vaccination ceased,5.0,21413249.0,,,1
+Canada,No,High income,2011 data: 1933-1954 in some provinces/territori5,2011 data: 1960s-70s except for Inuit and many on-reserve First Nations infants,N/A,2011 data: 1960s-1970s,2011 data: Discontinuation of routine BCG vaccination in many provinces/territories,,,,,3
+Ecuador,No,Upper middle income,N/A,N/A,90%,None,Stopped revaccinations ,180.0,17643054.0,,,2
+Venezuela,Yes,Upper middle income,N/A,N/A,99.90%,1993 & 2008,"1993: Revaccination stopped for school age, 2008: National BCG production discontinued",7.0,28435940.0,,,2
+Croatia,Yes,High income,1948,N/A,98.60%,"2004-05, 2005, 2014 ",2004-5: Stopped revaccinations at the age of 8; 2005: Stopped TST at age of 2; 2014: Stopped revaccinations at the age of 13 ,15.0,4105267.0,1948.0,,3
+Norway,No,High income,N/A,2009,Unkown,2009,BCG Vaccination no longer part of National Vaccination program,71.0,5421241.0,,2009.0,3
+Iraq,Yes,Upper middle income,N/A,N/A,99.50%,"1947, 1984, 1999",1947: Local BCG vaccine production and usage in the country; 1984: Beginning of Expanded Program of Immunization (EPI) calling for routine BCG vaccination and revaccinations of BCG introduced; 1999: Revaccinations stopped ,61.0,40222493.0,,,2
+South Africa,Yes,Upper middle income,1973,N/A,90.5% (98% for Western Cape),2000,"2000: stop Tokyo 1572 percutaneous, start Danish intradermal",11.0,59308690.0,1973.0,,2
+Estonia,Yes,High income,Unknown,N/A,~90%,2004,Ceased revaccination at 7 yrs,15.0,1326535.0,,,3
+Peru,Yes,Upper middle income,1945,N/A,80%,N/A,N/A,83.0,32971854.0,1945.0,,2
+Gambia,Yes,Low income,1979,N/A,99%,None,None,,2416668.0,1979.0,,0
+Saudi Arabia,Yes,High income,1968,N/A,98%,None,Ceased revaccination,34.0,34813871.0,1968.0,,3
+Sudan,Yes,Lower middle income,1976,N/A,77%,None,N/A,,43849260.0,1976.0,,1
+United Kingdom,No,High income,1953,2005,75%,2005,2005: vaccination of adolescents stopped only babies from families at risk get BCG,4934.0,67886011.0,1953.0,2005.0,3
+Indonesia,Yes,Lower middle income,1999,N/A,92.2%%,None,None,198.0,273523615.0,1999.0,,1
+Armenia,Yes,Lower middle income,1998,N/A,94%,2002,Approval of National BCG Calendar,7.0,2963243.0,1998.0,,1
+El Salvador,Yes,Lower middle income,1970,N/A,85.40%,N/A,N/A,3.0,6486205.0,1970.0,,1
+Philippines,Yes,Lower middle income,N/A,N/A,80%,N/A,N/A,152.0,109581078.0,,,1
+Taiwan*,Yes,High income,2011 data: 1951,N/A,98.40%,"1953, 1958, 1965, 1979, 1997, 2016",1953: Strain shifted to Pasteur Institute; 1958: Strain shifted to new Pasteur strain; 1965: Vaccination of newborns and infants (previous vaccination target was school children with negative TST); 1979: BCG production using Tokyo 172 strain; 1997: Stopped revaccinations; 2016: Delay vaccination time to 5-8 months after bith or less than 1 year old,5.0,23816775.0,,,3
+Portugal,Yes,High income,N/A,N/A,93.70%,2005,"2005: single BCG at birth only, ceased revaccination at 7 yrs, followed by TST and BCG if negative",295.0,10196709.0,,,3
+Bahamas,Yes,High income,N/A,N/A,98%,2016,Stopped revaccinations ,,393244.0,,,3
+Cabo Verde,Yes,Lower middle income,N/A,N/A,98%,2016,Stopped revaccinations ,,555987.0,,,1
+Slovenia,No,High income,1947,2005,96%,1997 & 2005,1997: Ceased revaccination at 14 & 15 yrs. 2005: Stop nonselective BCG vaccination,28.0,2078938.0,1947.0,2005.0,3
+Afghanistan,Yes,Low income,N/A,N/A,46%,None,None,7.0,38928346.0,,,0
+Guatemala,Yes,Lower middle income,N/A,N/A,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",2.0,17915568.0,,,1
+Morocco,Yes,Lower middle income,N/A,N/A,95%,"1998, 2004-2005, 2005, 2007",1998: Revaccination ceased for school age children. 2004-2005: Mosku strain used. 2005: Tokyo strain 172 (Japan Institute) used by National Health Services because of different logistic problems to obtain Danish strain.2007: NTP deevelopped w,70.0,36910560.0,,,1
+San Marino,Yes,High income,N/A,N/A,>90%,1992-1993,Ceased revaccination,32.0,33931.0,,,3
+India,Yes,Lower middle income,1948,N/A,99%,"1948, 1949, 1951, 1978 & 1985","1948: BCG intro as pilot project, 1949: Immunization program in schools, 51-59 Mass immunization campaigns. 1978: extended program of immunization to be given at birth or within 1st mo, 1985: universal immunization program BCG vaccine policy continued as earlier",99.0,1380004385.0,1948.0,,1
+Iran,Yes,Upper middle income,1984,N/A,99.50%,"1947, 1984, 1999",1947: Local BCG vaccine production and usage in the country; 1984: Beginning of Expanded Program of Immunization (EPI) calling for routine BCG vaccination and revaccinations of BCG introduced; 1999: Revaccinations stopped ,,,1984.0,,2
+Romania,Yes,Upper middle income,1928,N/A,>90%,1992-1993,Ceased revaccination,151.0,19237691.0,1928.0,,2
+Malaysia,Yes,Upper middle income,N/A,N/A,85%,2007,Revaccination ceased,61.0,32365999.0,,,2
+Poland,Yes,High income,1955,N/A,93.70%,2005,"2005: single BCG at birth only, ceased revaccination at 7 yrs, followed by TST and BCG if negative",94.0,37846611.0,1955.0,,3
+Moldova,Yes,Lower middle income,N/A,N/A,95%,"1998, 2004-2005, 2005, 2007",1998: Revaccination ceased for school age children. 2004-2005: Mosku strain used. 2005: Tokyo strain 172 (Japan Institute) used by National Health Services because of different logistic problems to obtain Danish strain.2007: NTP deevelopped w,15.0,4033963.0,,,1
+Turkey,Yes,Upper middle income,1952,N/A,94%,1997 & 2006,1997: Ceased revaccination at ages 14 and 20. 2006: Ceased revaccination at age 7,574.0,84339067.0,1952.0,,2
+Nigeria,Yes,Lower middle income,1991,N/A,85%,None,N/A,5.0,206139589.0,1991.0,,1
+Germany,No,High income,1961,1998,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",1584.0,83783942.0,1961.0,1998.0,3
+Dominican Republic,Yes,Upper middle income,N/A,N/A,90%,None,Stopped revaccinations ,82.0,10847910.0,,,2
+Syria,Yes,Lower middle income,N/A,N/A,N/A,"1960s, 1970s, 1987, 1996 ",1960s: BCG vaccination for tuberculin-negative persons above the age of 12; newborns and infants only in 'high-risk' groups (ex. with TB cases in the family; 1970s: Revaccinations of BCG vaccine for tuberculin-negative children at age 10-12; 1987: Discontinued mass BCG vaccination; 1996: BCG vaccination only for specific groups,,17500658.0,,,1
+Ukraine,Yes,Lower middle income,> 40 years ag5,N/A,15-45%%,2015,2015: Second revaccination of vaccine was discontinued ,37.0,43733762.0,,,1
+Republic of Congo,Yes,Lower middle income,N/A,N/A,90%,None,Stopped revaccinations ,,,,,1
+Bolivia,Yes,Lower middle income,N/A,N/A,N/A,"1989, 1995, 2013","1989: Stopped vaccinations for healthcare or other at-risk workers, medical/nursing students; 1995: Targeted population reduced to TST negative persons, mostly children of parents from high-risk countries; 2013: BCG vaccine considered optional to 1. children of parents from high-risk countries < age of 5 2. persons working in healthcare 3. healthcare workers in contact with multi-drug resistant TB patients ",10.0,11673021.0,,,1
+Bulgaria,Yes,Upper middle income,1951,N/A,98%,None,None,20.0,6948445.0,1951.0,,2
+Ghana,Yes,Lower middle income,N/A,N/A,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",5.0,31072940.0,,,1
+Cameroon,Yes,Lower middle income,N/A,N/A,98%,2016,Stopped revaccinations ,9.0,26545863.0,,,1
+Mexico,Yes,Upper middle income,1951,N/A,95%,"1998, 2004-2005, 2005, 2007",1998: Revaccination ceased for school age children. 2004-2005: Mosku strain used. 2005: Tokyo strain 172 (Japan Institute) used by National Health Services because of different logistic problems to obtain Danish strain.2007: NTP deevelopped w,79.0,128932753.0,1951.0,,2
+Cuba,Yes,Upper middle income,N/A,N/A,90%,None,Stopped revaccinations ,8.0,11326616.0,,,2
+Gabon,Yes,Upper middle income,N/A,N/A,N/A,"2004, 2006, 2007",2004: Stopped revaccinations of children and adults of certain professions; 2004: Routine tuberculin tests stopped; 2006: Multipuncture (Monovax) replaced by BCG ID (BCG SSI); 2007: Compulsory vaccination suspended and replaced by targeted vaccination of high-risk children ,,2225734.0,,,2
+Jordan,Yes,Upper middle income,N/A,N/A,98.10%,"1942, 1948, 1967, 1974 & 2005","1942: Introduced to primary school graduates, 1948: If TST is negative BCG is repeated every year from ages 0-18 yrs, 1967: Intradermal method was replaced with nulti-puncture method, 1974: Change age of first vaccination to within 4 yrs & Restrict revaccination to primary school and junior school entrants who are TST negative (age of 7 and 13, if negative of TST.). 2005: Restrict to those aged less than 6 months, without preceeding TST",5.0,10203134.0,,,2
+US,No,High income,N/A,N/A,N/A,None,None,9619.0,331002651.0,,,3
+Greece,Yes,High income,N/A,N/A,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",73.0,10423054.0,,,3
+Switzerland,No,High income,1965,1987,N/A,"1960s, 1970s, 1987, 1996 ",1960s: BCG vaccination for tuberculin-negative persons above the age of 12; newborns and infants only in 'high-risk' groups (ex. with TB cases in the family; 1970s: Revaccinations of BCG vaccine for tuberculin-negative children at age 10-12; 1987: Discontinued mass BCG vaccination; 1996: BCG vaccination only for specific groups,715.0,8654622.0,1965.0,1987.0,3
+Tunisia,Yes,Lower middle income,N/A,N/A,>95%,"1928, Before 1996, 1996","1928: First BCG vaccination (oral route); Before 1996: Vaccination at birth, 1 revaccination at 12 years and another at 18 years; 1996: Only one revaccination at 6 years",22.0,11818619.0,,,1
+Mauritius,Yes,Upper middle income,N/A,N/A,85%,2007,Revaccination ceased,7.0,1271768.0,,,2
+Mali,Yes,Low income,N/A,N/A,85%,2007,Revaccination ceased,,20250833.0,,,0
+Israel,No,High income,1955,N/A,>90%,1982,Ceasing routine newborn vaccination,49.0,8655535.0,1955.0,,3
+United Arab Emirates,Yes,High income,N/A,N/A,N/A,N/A,N/A,10.0,9890402.0,,,3
+Jamaica,Yes,Upper middle income,N/A,N/A,N/A,"1970, 2001",1970: Compulsory BCG vaccination was introduced for selected groups of people; 2001: Selected groups of people requiring BCG vaccination was reduced; Stopped vaccination at 6 and 9 years of age (never systematically done),,2961167.0,,,2
+Azerbaijan,Yes,Upper middle income,N/A,N/A,94%,2002,Approval of National BCG Calendar,7.0,10139177.0,,,2
+Thailand,Yes,Upper middle income,1977,N/A,99%,1987 & 1991,"1987: changed strain from Danish to Tokyo (same manufacturer), 1987-1991: 2 doses of BCG at birth, and 7 yrs (before and after they only used 1 bcg at birth",23.0,69799978.0,1977.0,,2
+Australia,No,High income,1955,mid 1980s,95%,1980s,Moved to selective vaccination of at risk groups,,,1955.0,,3
+Ireland,Yes,High income,1955,N/A,94%,1996 & 2001,"1996: stopped boosters, 2002: changed from evans BCG copenhagen 1077 to Danish SSI 1331",158.0,4937786.0,1955.0,,3
+Uruguay,Yes,High income,1980,N/A,99.90%,1993 & 2008,"1993: Revaccination stopped for school age, 2008: National BCG production discontinued",5.0,3473730.0,1980.0,,3
+Czech Replublic,No,High income,1953,2010,80% (of targeted) ,"1986-93, 1994, 2001, 2009, 2010, 2015 ","1986-93: Stopped universal BCG vaccination in 3 regions; 1994: Russian vaccine replaced by Behring Danish strain; 2001: Stopped vaccination of special groups (i.e. healthcare workers at risk); 2009: Stopped revaccinations; 2010: Changed from universal vaccination to selective vaccination upon request (voluntary); 2015: Danish SSI BCG replaced by Polish BCG, Biomed Lublin ",,,1953.0,2010.0,3
+Netherlands,No,High income,N/A,N/A,N/A,"1979, 2005, 2016","1979: Discontinuation of vaccination healthcare; 1979: Selective vaccination of children born in the Netherlands with one or both parents born in high-incidence countries; 2005: Selective vaccination limited to children born in the Netherlands with one or both parents born in a country with a WHO estimated TB incidence >50/100 000; 2016: Change from BCG SSI (Denmark) to BCG Bulbio (Intervax, Bulgaria); ",1766.0,17134872.0,,,3
+Angola,Yes,Upper middle income,1979,N/A,90%,None,None,,32866272.0,1979.0,,2
+Qatar,Yes,High income,N/A,N/A,93.70%,2005,"2005: single BCG at birth only, ceased revaccination at 7 yrs, followed by TST and BCG if negative",4.0,2881053.0,,,3
+Zimbabwe,Yes,Low income,N/A,N/A,99.90%,1993 & 2008,"1993: Revaccination stopped for school age, 2008: National BCG production discontinued",,14862924.0,,,0
+France,No,High income,1950,2007,N/A,"2004, 2006, 2007",2004: Stopped revaccinations of children and adults of certain professions; 2004: Routine tuberculin tests stopped; 2006: Multipuncture (Monovax) replaced by BCG ID (BCG SSI); 2007: Compulsory vaccination suspended and replaced by targeted vaccination of high-risk children ,8078.0,65273511.0,1950.0,2007.0,3
+Denmark,No,High income,1946,1986,>80%,"1927, 1946, 1980s, 1986, 1990",1927: BCG vaccine first introduced to Denmark; 1946: Mandatory universal vaccination; 1980s: Universal vaccination discontinuation begins; 1986: Last county in Denmark discontinues universal vaccination; 1990: BCG vaccination removed as official reccommendation for childhood vaccination,179.0,5792202.0,1946.0,1986.0,3
+Guyana,Yes,Upper middle income,N/A,N/A,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",,786552.0,,,2
+Kazakhstan,Yes,Upper middle income,N/A,N/A,98.10%,"1942, 1948, 1967, 1974 & 2005","1942: Introduced to primary school graduates, 1948: If TST is negative BCG is repeated every year from ages 0-18 yrs, 1967: Intradermal method was replaced with nulti-puncture method, 1974: Change age of first vaccination to within 4 yrs & Restrict revaccination to primary school and junior school entrants who are TST negative (age of 7 and 13, if negative of TST.). 2005: Restrict to those aged less than 6 months, without preceeding TST",6.0,18776707.0,,,2
+Andorra,No,High income,N/A,N/A,90%,None,None,18.0,77265.0,,,3
+Panama,Yes,Upper middle income,N/A,N/A,95%,2007 & 2008,"2007:DANISH STRAIN 1331, STATENS SERUM INSTITUTE INTERRAX Ltd. TORONTO CANADA USED UP TO YEAR 2007, DANISH STRAIN 1331, STATENS SERUM INSTITUTE USED UP TO 2008, JAPANEECE STRAIN, JAPANEECE BCG LAB, JAPAN USED SINCE 2008",46.0,4314767.0,,,2
+Belgium,No,High income,N/A,N/A,N/A,"1989, 1995, 2013","1989: Stopped vaccinations for healthcare or other at-risk workers, medical/nursing students; 1995: Targeted population reduced to TST negative persons, mostly children of parents from high-risk countries; 2013: BCG vaccine considered optional to 1. children of parents from high-risk countries < age of 5 2. persons working in healthcare 3. healthcare workers in contact with multi-drug resistant TB patients ",1447.0,11589623.0,,,3
+Burkina Faso,Yes,Low income,N/A,N/A,98%,2016,Stopped revaccinations ,17.0,20903273.0,,,0
+Singapore,Yes,High income,mid 1955,N/A,97%,2001,"Revaccination ceased for school children (12-16 yrs old, TST non-reactors)",6.0,5850342.0,,,3
+Lebanon,No,Upper middle income,N/A,N/A,85%,2007,Revaccination ceased,18.0,6825445.0,,,2
+Paraguay,Yes,Upper middle income,N/A,N/A,95%,2007 & 2008,"2007:DANISH STRAIN 1331, STATENS SERUM INSTITUTE INTERRAX Ltd. TORONTO CANADA USED UP TO YEAR 2007, DANISH STRAIN 1331, STATENS SERUM INSTITUTE USED UP TO 2008, JAPANEECE STRAIN, JAPANEECE BCG LAB, JAPAN USED SINCE 2008",3.0,7132538.0,,,2
+Honduras,Yes,Lower middle income,N/A,N/A,DK,1951 & 1975,"Histories different for West and East Germany (East: 1951, revacc of TST neg at age 15years, also used different strains, more info in questionnaire...1975- move to vaccinate high risk kids only",22.0,9904607.0,,,1
+Pakistan,Yes,Lower middle income,1978,N/A,95%,2007 & 2008,"2007:DANISH STRAIN 1331, STATENS SERUM INSTITUTE INTERRAX Ltd. TORONTO CANADA USED UP TO YEAR 2007, DANISH STRAIN 1331, STATENS SERUM INSTITUTE USED UP TO 2008, JAPANEECE STRAIN, JAPANEECE BCG LAB, JAPAN USED SINCE 2008",47.0,220892340.0,1978.0,,1
+Argentina,Yes,Upper middle income,Unknown,N/A,95%,1995 & 2007,"1995: Ceased revaccination at 16 yrs, 2007: Ceased revaccintion at 6 yrs.",44.0,45195774.0,,,2
+Sweden,No,High income,1940,1975,26.4% (98.1% of high-risk group),"1975, 1965, 1986 & 1993","1965: Stopped revaccinations at 7 years of age; 1975: General vaccination of newborns replaced by selective vaccination of at-risk groups; 1986: Stopped revaccinations at 15 years of age; 1979: Stopped boosters for military conscripts; 1975: Stopped mass mandatory vaccination and targeted only at-risk groups; 1993: Vaccination of at-risk groups postponed to 6 months after birth (however, infants with immediate risk of exposure are still vaccinated at birth) ",401.0,10099265.0,1940.0,1975.0,3
+Togo,Yes,Low income,N/A,N/A,99%,1987 & 1991,"1987: changed strain from Danish to Tokyo (same manufacturer), 1987-1991: 2 doses of BCG at birth, and 7 yrs (before and after they only used 1 bcg at birth",,8278724.0,,,0
+Costa Rica,Yes,Upper middle income,N/A,N/A,90%,None,Stopped revaccinations ,2.0,5094118.0,,,2
+Bangladesh,Yes,Lower middle income,1979,N/A,99%,None,None,9.0,164689383.0,1979.0,,1
+Bahrain,Yes,High income,N/A,N/A,98%,2016,Stopped revaccinations ,4.0,1701575.0,,,3
+Brazil,Yes,Upper middle income,1976,N/A,86.90%,"1927, 1968, 1994, 2006",1927: Began oral vaccines; 1968: Replaced oral vaccine with intra-dermal vaccines; 1994: Began revaccinations at 6 years of age; 2006: Stopped revaccinations,486.0,212559417.0,1976.0,,2
+Russia,Yes,Upper middle income,N/A,N/A,>90%,1992-1993,Ceased revaccination,45.0,145934462.0,,,2
+DRC,Yes,Low income,N/A,N/A,90%,None,Stopped revaccinations ,,,,,0
+Spain,No,High income,1965,1981,N/A,1981,Systematic BCG vaccination ceased,12641.0,46754778.0,1965.0,1981.0,3
+Columbia,Yes,Upper middle income,1960,N/A,80-90%,None,No,,,1960.0,,2
+Iceland,Yes,High income,1953,N/A,100%,None,None,4.0,341243.0,1953.0,,3
+Albania,Yes,Upper middle income,N/A,N/A,46%,None,None,20.0,2877797.0,,,2
+Botswana,Yes,Upper middle income,N/A,N/A,97%,1996,"Revaccination ceased, now only vaccinated at birth.",,2351627.0,,,2
+Egypt,Yes,Lower middle income,N/A,N/A,90%,None,Stopped revaccinations ,78.0,102334404.0,,,1
+Luxembourg,No,High income,N/A,N/A,85%,2007,Revaccination ceased,36.0,625978.0,,,3
+Niger,Yes,Low income,N/A,N/A,N/A,"1979, 2005, 2016","1979: Discontinuation of vaccination healthcare; 1979: Selective vaccination of children born in the Netherlands with one or both parents born in high-incidence countries; 2005: Selective vaccination limited to children born in the Netherlands with one or both parents born in a country with a WHO estimated TB incidence >50/100 000; 2016: Change from BCG SSI (Denmark) to BCG Bulbio (Intervax, Bulgaria); ",10.0,24206644.0,,,0
+Belarus,Yes,Upper middle income,N/A,N/A,98%,2016,Stopped revaccinations ,8.0,9449323.0,,,2
+Bosnia and Herzegovina,Yes,Upper middle income,1950,N/A,97%,1996,"Revaccination ceased, now only vaccinated at birth.",23.0,3280819.0,1950.0,,2
+Austria,No,High income,1952,1990,Almost 100%,"1952, Dec. 31, 1989",1952: National mass vaccination BCG policy implemented,204.0,9006398.0,1952.0,1990.0,3
+Lithuania,Yes,High income,N/A,N/A,85%,2007,Revaccination ceased,13.0,2722289.0,,,3
+Japan,Yes,High income,1942-1951,N/A,98.10%,"1942, 1948, 1967, 1974 & 2005","1942: Introduced to primary school graduates, 1948: If TST is negative BCG is repeated every year from ages 0-18 yrs, 1967: Intradermal method was replaced with nulti-puncture method, 1974: Change age of first vaccination to within 4 yrs & Restrict revaccination to primary school and junior school entrants who are TST negative (age of 7 and 13, if negative of TST.). 2005: Restrict to those aged less than 6 months, without preceeding TST",77.0,126476461.0,,,3
+Kenya,Yes,Lower middle income,N/A,N/A,80%,"1942, 1948, 1967, 1974 & 2005","1942: Introduced to primary school graduates, 1948: If TST is negative BCG is repeated every year from ages 0-18 yrs, 1967: Intradermal method was replaced with nulti-puncture method, 1974: Change age of first vaccination to within 4 yrs & Restrict revaccination to primary school and junior school entrants who are TST negative (age of 7 and 13, if negative of TST.). 2005: Restrict to those aged less than 6 months, without preceeding TST",4.0,53771296.0,,,1
+Trinidad and Tobago,Yes,High income,N/A,N/A,99%,1987 & 1991,"1987: changed strain from Danish to Tokyo (same manufacturer), 1987-1991: 2 doses of BCG at birth, and 7 yrs (before and after they only used 1 bcg at birth",7.0,1399488.0,,,3
+Algeria,Yes,Upper middle income,N/A,N/A,46%,None,None,152.0,43851044.0,,,2
+Finland,No,High income,1941,2006,98%,"1971, 1978, 1990, 2002 & 2006","1971: Gothenburg BCG; 1978: Glaxo-Evans strain; 1990:TST and revaccintion of schoolchildren stopped 2002: Danish SSI, 2006: Ceased mass BCG vaccination, start target selected groups",28.0,5540720.0,1941.0,2006.0,3
+Italy,No ,High income,"2011 data: 1970 (not national, only provincial) ","2011 data: 2001 (not national, only provincial)",N/A,"1970, 2001",1970: Compulsory BCG vaccination was introduced for selected groups of people; 2001: Selected groups of people requiring BCG vaccination was reduced; Stopped vaccination at 6 and 9 years of age (never systematically done),,,,,3
+Cyprus,Yes,High income,N/A,N/A,90%,None,Stopped revaccinations ,9.0,1207359.0,,,3
+"Korea, South",Yes,High income,1975,N/A,85%,2007,Revaccination ceased,183.0,51269185.0,1975.0,,3

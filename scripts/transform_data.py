@@ -31,7 +31,7 @@ def convert_date(date):
 
 def initial_processing(df, threshold):
 
-    for c in ['China', 'Iran', 'Italy', 'Diamond Princess']:
+    for c in ['China', 'Diamond Princess']:
         if c in df.values:
             df.drop(index=df[c==df.values].index, inplace=True)
 
@@ -100,7 +100,7 @@ def weather(update=True):
                         print(filename, hours)
 
                     temps = np.array([x['temperature'] for x in data['hourly']['data']])
-                    hums = np.array([x['humidity'] for x in data['hourly']['data']])
+                    hums = 100*np.array([x['humidity'] for x in data['hourly']['data']])
                     winds = np.array([x['windSpeed'] for x in data['hourly']['data']])
                     t[date].iloc[i] = np.mean(temps)
                     h[date].iloc[i] = np.mean(hums)
@@ -172,7 +172,7 @@ def testing():
     test = pd.read_csv(fp, index_col='Country/Region')
 
     # Drop Countries with bad data or sub-regions
-    test.drop(['China:  Guangdong', 'Kazakhstan', 'Palestine'], inplace=True)
+    # test.drop(['China:  Guangdong', 'Kazakhstan', 'Palestine'], inplace=True)
     test.drop([x for x in test.index if ':' in x], inplace=True)
     # Convert data to numeric and calculate test rate
     test['Tests'] = test['Tests'].apply(lambda x: int(str(x).replace('*', '') \
