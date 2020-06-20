@@ -1,0 +1,226 @@
+,Country,pm2.5
+0,Afghanistan,57
+1,Albania,18
+2,Algeria,39
+3,American Samoa,12
+4,Andorra,10
+5,Angola,32
+6,Antigua and Barbuda,19
+7,Argentina,13
+8,Armenia,33
+9,Australia,9
+10,Austria,12
+11,Azerbaijan,20
+12,"Bahamas, The",17
+13,Bahrain,71
+14,Bangladesh,61
+15,Barbados,23
+16,Belarus,19
+17,Belgium,13
+18,Belize,23
+19,Benin,39
+20,Bermuda,12
+21,Bhutan,38
+22,Bolivia,22
+23,Bosnia and Herzegovina,28
+24,Botswana,23
+25,Brazil,13
+26,Brunei Darussalam,6
+27,Bulgaria,19
+28,Burkina Faso,43
+29,Burundi,39
+30,Cabo Verde,35
+31,Cambodia,26
+32,Cameroon,73
+33,Canada,6
+34,Central African Republic,57
+35,Chad,66
+36,Chile,21
+37,China,53
+38,Colombia,17
+39,Comoros,21
+40,"Congo, Dem. Rep.",45
+41,"Congo, Rep.",47
+42,Costa Rica,16
+43,Cote d'Ivoire,26
+44,Croatia,18
+45,Cuba,20
+46,Cyprus,17
+47,Czech Republic,16
+48,Denmark,10
+49,Djibouti,46
+50,Dominica,19
+51,Dominican Republic,14
+52,Ecuador,15
+53,"Egypt, Arab Rep.",87
+54,El Salvador,24
+55,Equatorial Guinea,53
+56,Eritrea,48
+57,Estonia,7
+58,Eswatini,17
+59,Ethiopia,39
+60,Fiji,11
+61,Finland,6
+62,France,12
+63,Gabon,44
+64,"Gambia, The",34
+65,Georgia,22
+66,Germany,12
+67,Ghana,35
+68,Greece,16
+69,Greenland,12
+70,Grenada,23
+71,Guam,12
+72,Guatemala,24
+73,Guinea,26
+74,Guinea-Bissau,30
+75,Guyana,22
+76,Haiti,15
+77,Honduras,21
+78,Hungary,16
+79,Iceland,6
+80,India,91
+81,Indonesia,17
+82,"Iran, Islamic Rep.",39
+83,Iraq,62
+84,Ireland,8
+85,Israel,21
+86,Italy,17
+87,Jamaica,13
+88,Japan,12
+89,Jordan,33
+90,Kazakhstan,14
+91,Kenya,29
+92,Kiribati,11
+93,"Korea, Dem. People’s Rep.",32
+94,"Korea, Rep.",25
+95,Kuwait,61
+96,Kyrgyz Republic,23
+97,Lao PDR,25
+98,Latvia,13
+99,Lebanon,31
+100,Lesotho,28
+101,Liberia,18
+102,Libya,54
+103,Lithuania,12
+104,Luxembourg,10
+105,Madagascar,23
+106,Malawi,24
+107,Malaysia,16
+108,Maldives,8
+109,Mali,39
+110,Malta,14
+111,Marshall Islands,10
+112,Mauritania,47
+113,Mauritius,14
+114,Mexico,21
+115,"Micronesia, Fed. Sts.",11
+116,Moldova,16
+117,Mongolia,40
+118,Montenegro,21
+119,Morocco,33
+120,Mozambique,21
+121,Myanmar,36
+122,Namibia,25
+123,Nepal,100
+124,Netherlands,12
+125,New Zealand,6
+126,Nicaragua,18
+127,Niger,94
+128,Nigeria,72
+129,North Macedonia,30
+130,Northern Mariana Islands,10
+131,Norway,7
+132,Oman,41
+133,Pakistan,58
+134,Panama,11
+135,Papua New Guinea,12
+136,Paraguay,12
+137,Peru,25
+138,Philippines,18
+139,Poland,21
+140,Portugal,8
+141,Puerto Rico,8
+142,Qatar,91
+143,Romania,15
+144,Russian Federation,16
+145,Rwanda,43
+146,Samoa,12
+147,Sao Tome and Principe,29
+148,Saudi Arabia,88
+149,Senegal,41
+150,Serbia,25
+151,Seychelles,20
+152,Sierra Leone,22
+153,Singapore,19
+154,Slovak Republic,18
+155,Slovenia,16
+156,Solomon Islands,12
+157,Somalia,32
+158,South Africa,25
+159,South Sudan,46
+160,Spain,10
+161,Sri Lanka,11
+162,St. Lucia,22
+163,St. Vincent and the Grenadines,22
+164,Sudan,55
+165,Suriname,25
+166,Sweden,6
+167,Switzerland,10
+168,Syrian Arab Republic,44
+169,Tajikistan,46
+170,Tanzania,29
+171,Thailand,26
+172,Timor-Leste,19
+173,Togo,36
+174,Tonga,11
+175,Trinidad and Tobago,24
+176,Tunisia,38
+177,Turkey,44
+178,Turkmenistan,22
+179,Uganda,50
+180,Ukraine,20
+181,United Arab Emirates,41
+182,United Kingdom,10
+183,United States,7
+184,Uruguay,9
+185,Uzbekistan,28
+186,Vanuatu,12
+187,"Venezuela, RB",17
+188,Vietnam,30
+189,Virgin Islands (U.S.),10
+190,West Bank and Gaza,33
+191,"Yemen, Rep.",50
+192,Zambia,27
+193,Zimbabwe,22
+194,World,46
+195,Arab World,59
+196,Caribbean small states,19
+197,Central Europe and the Baltics,18
+198,East Asia & Pacific,40
+199,East Asia & Pacific (excluding high income),43
+200,Euro area,13
+201,Europe & Central Asia,18
+202,Europe & Central Asia (excluding high income),24
+203,European Union,13
+204,Fragile and conflict affected situations,42
+205,Heavily indebted poor countries (HIPC),41
+206,Latin America & Caribbean,17
+207,Latin America & Caribbean (excluding high income),17
+208,Least developed countries: UN classification,45
+209,Middle East & North Africa,56
+210,Middle East & North Africa (excluding high income),54
+211,North America,7
+212,OECD members,14
+213,Other small states,35
+214,Pacific island small states,11
+215,Small states,30
+216,South Asia,83
+217,Sub-Saharan Africa,45
+218,Sub-Saharan Africa (excluding high income),45
+219,High income,15
+220,Low & middle income,51
+221,Low income,43
+222,Lower middle income,64
+223,Middle income,52
+224,Upper middle income,39

@@ -31,7 +31,7 @@ def convert_date(date):
 
 def initial_processing(df, threshold):
 
-    for c in ['China', 'Diamond Princess']:
+    for c in ['Diamond Princess',]:
         if c in df.values:
             df.drop(index=df[c==df.values].index, inplace=True)
 
@@ -50,18 +50,68 @@ def intersect_dfs(dfs):
 
     return keep
 
+def sum_large_countries(df):
+    # Australia
+    aus = df[(df['Country/Region']=='Australia')].sum().iloc[4:].T
+    aus['Lat'], aus['Long'] = df[(df['Country/Region']=='Australia') &
+                                   (df.iloc[:,-1]==df[(df['Country/Region']=='Australia') ].max()[-1])
+                                  ][['Lat', 'Long']].values[0]
+    aus['Country/Region'] = 'Australia'
+    # Canada
+    canada = df[(df['Country/Region']=='Canada') & (df['Province/State']!='Diamond Princess')].sum().iloc[4:].T
+    canada['Lat'], canada['Long'] = df[(df['Country/Region']=='Canada') &
+                                   (df.iloc[:,-1]==df[(df['Country/Region']=='Canada') ].max()[-1])
+                                  ][['Lat', 'Long']].values[0]
+    canada['Country/Region'] = 'Canada'
+    # China
+    china = df[(df['Country/Region']=='China') & (df['Province/State']!='Hong Kong')].sum().iloc[4:].T
+    china['Lat'], china['Long'] = df[(df['Country/Region']=='China') &
+                                       (df['Province/State']!='Hong Kong') &
+                                       (df.iloc[:,-1]==df[(df['Country/Region']=='China') ].max()[-1])
+                                      ][['Lat', 'Long']].values[0]
+    china['Country/Region'] = 'China'
+
+    df.loc[df.index.max()+1] = aus
+    df.loc[df.index.max()+1] = canada
+    df.loc[df.index.max()+1] = china
+
+def avg_large_countries(df):
+    # Australia
+    aus = df[(df['Country/Region']=='Australia')].mean().iloc[4:].T
+    aus['Lat'], aus['Long'] = df[(df['Country/Region']=='Australia') &
+                                 (df['Province/State']=='New South Wales')
+                                  ][['Lat', 'Long']].values[0]
+    aus['Country/Region'] = 'Australia'
+    # Canada
+    canada = df[(df['Country/Region']=='Canada') & (df['Province/State']!='Diamond Princess')].mean().iloc[4:].T
+    canada['Lat'], canada['Long'] = df[(df['Province/State']=='Ontario')
+                                  ][['Lat', 'Long']].values[0]
+    canada['Country/Region'] = 'Canada'
+    # China
+    china = df[(df['Country/Region']=='China') & (df['Province/State']!='Hong Kong')].mean().iloc[4:].T
+    china['Lat'], china['Long'] = df[(df['Country/Region']=='China') &
+                                       (df['Province/State']=='Hubei')
+                                      ][['Lat', 'Long']].values[0]
+    china['Country/Region'] = 'China'
+
+    df.loc[df.index.max()+1] = aus
+    df.loc[df.index.max()+1] = canada
+    df.loc[df.index.max()+1] = china
+
 def IRD(min_confirmed=100, min_recovered=10, min_deaths=5):
 
     IRD_df = [pd.read_csv(filename) for filename in
               [CONFIRMED_CSV, RECOVERED_CSV, DEATHS_CSV]]
 
-    # Drop China, Iran, Italy and Diamond Princess
+    # Drop Diamond Princess
     # Drop data not meeting a minimum
     thresholds = [min_confirmed, min_recovered, min_deaths]
     for df, threshold in zip(IRD_df, thresholds):
+        sum_large_countries(df)
         initial_processing(df, threshold)
     # Now we take the intersection of these DataFrames
-    intersect_dfs(IRD_df)
+    print([len(df) for df in IRD_df])
+    # intersect_dfs(IRD_df)
     return IRD_df
 
 def weather(update=True):
@@ -79,11 +129,12 @@ def weather(update=True):
         lats = c['Lat'].values
         lons = c['Long'].values
 
-        t, h, w = c.copy(), c.copy(), c.copy()
+        t, h, w, uv = c.copy(), c.copy(), c.copy(), c.copy()
 
         t[df_dates] = np.nan
         h[df_dates] = np.nan
         w[df_dates] = np.nan
+        uv[df_dates] = np.nan
 
         for i in tqdm(range(len(lats))):
             for date in dates:
@@ -102,32 +153,38 @@ def weather(update=True):
                     temps = np.array([x['temperature'] for x in data['hourly']['data']])
                     hums = 100*np.array([x['humidity'] for x in data['hourly']['data']])
                     winds = np.array([x['windSpeed'] for x in data['hourly']['data']])
+                    uvIndex = np.array([x['uvIndex'] for x in data['hourly']['data']])
                     t[date].iloc[i] = np.mean(temps)
                     h[date].iloc[i] = np.mean(hums)
                     w[date].iloc[i] = np.mean(winds)
+                    uv[date].iloc[i] = np.mean(uvIndex)
 
         t.to_csv(os.path.join(WEATHER_DIR, 'temperature.csv'), index=False)
         h.to_csv(os.path.join(WEATHER_DIR, 'humidity.csv'), index=False)
         w.to_csv(os.path.join(WEATHER_DIR, 'wind_speed.csv'), index=False)
+        uv.to_csv(os.path.join(WEATHER_DIR, 'uv_index.csv'), index=False)
 
         print(f'Weather data saved @ {WEATHER_DIR}')
     else:
         t = pd.read_csv(os.path.join(WEATHER_DIR, 'temperature.csv'))
         h = pd.read_csv(os.path.join(WEATHER_DIR, 'humidity.csv'))
         w = pd.read_csv(os.path.join(WEATHER_DIR, 'wind_speed.csv'))
+        uv = pd.read_csv(os.path.join(WEATHER_DIR, 'uv_index.csv'))
     # Drop China, Iran, Italy and Diamond Princess
     # Drop data not meeting a minimum
-    min_temp, min_humid, min_wind = -50.0, 0.0, 0.0
-    THW = [t, h, w]
-    thresholds = [min_temp, min_humid, min_wind]
-    for df, threshold in zip(THW, thresholds):
+    min_temp, min_humid, min_wind, min_uv = -50.0, 0.0, 0.0, 0.0
+    THWU = [t, h, w, uv]
+    thresholds = [min_temp, min_humid, min_wind, min_uv]
+    for df, threshold in zip(THWU, thresholds):
+        avg_large_countries(df)
         initial_processing(df, threshold)
-    return THW
+    return THWU
 
 def population():
 
-    c_df = pd.read_csv(CONFIRMED_CSV)
-    initial_processing(c_df, -1)
+    # c_df = pd.read_csv(CONFIRMED_CSV)
+    c_df = IRD(0, 0, 0)[0]
+    # initial_processing(c_df, -1)
     pops = pd.read_csv(os.path.join(DATA_DIR, POPULATION_RAW_CSV)) \
                         .set_index('Country (or dependency)').drop('#', axis=1)
 
@@ -137,6 +194,10 @@ def population():
     populations['Australia / South Australia'] = 1756494
     populations['Australia / Victoria'] = 6629870
     populations['Australia / Western Australia'] = 2630557
+    populations['Canada / British Columbia'] = 5020302
+    populations['Canada / Quebec'] = 8433301
+    populations['Canada / Ontario'] = 14446515
+    populations['Canada / Alberta'] = 4345737
     populations['Denmark / Faroe Islands'] = 51783
     populations['France / Guadeloupe'] = 395700
     populations['France / Reunion'] = 859959
@@ -164,6 +225,9 @@ def population():
     popula.to_csv(fp, index=False)
     print(f'Population data saved @ {fp}')
     return popula
+
+def BCG():
+    pass
 
 def testing():
 
